@@ -8,7 +8,7 @@ import gspread
 # worksheet = sh.sheet1
 
 app = Flask(__name__, static_url_path='/static')
-model = pickle.load(open('yield_predict.pkl', 'rb'))
+model = pickle.load(open('crop_yield.pkl', 'rb'))
 @app.route('/')
 def Home():
     return render_template('index.html')
