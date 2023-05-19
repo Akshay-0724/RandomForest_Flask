@@ -1,5 +1,4 @@
 from flask import *
-import joblib
 import pickle
 import gspread
 
